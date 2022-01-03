@@ -1,0 +1,23 @@
+@media screen and (max-width: 540px) {
+
+    .h1{
+     font-size: 50px;
+     width: 350px;
+    }
+
+    .p{
+     font-size: 8px;
+    }
+
+    .head-btn {
+     font-size: 1rem;
+     padding: 0.8rem 2rem;
+    }
+
+  } 
+
+  .p{
+     font-size: 20px !important;
+     font-weight: 300;
+     font-style: italic;
+    }

@@ -1,0 +1,59 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .wrapper {
+    animation: scroll 70s linear infinite;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/7014415/pexels-photo-7014415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    color: #eee;
+    height: 100vh;
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    
+  }
+
+  .wrapper p{
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .wrapper h1{
+    text-transform: capitalize;
+    letter-spacing: -0.05em;
+  }
+
+  .wrapper h1 span{
+    font-weight: 300;
+  }  
+  
+  @keyframes scroll {
+     100%{
+      background-position:0px -3000px;
+    }
+  }
+  
+  @media (prefers-reduced-motion) {
+    .wrapper {
+      animation: scroll 200s linear infinite;
+    }
+  }
+  
+  @media (min-width: 670px) {
+    .title {
+      font-size: 5rem;
+    }
+  }

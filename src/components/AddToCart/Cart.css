@@ -1,0 +1,28 @@
+
+.table {
+    background: #283618;
+    position: relative;
+    top: 90px;
+    box-shadow: 2px 2px 2px #f1f1f1;
+    padding: 8px;
+    margin: 12px;
+    color: #fff;
+}
+
+.total-items {
+    position: relative;
+    top: 90px;
+    margin-left: 16px;
+}
+
+.td-items {
+    padding: 4px;
+}
+
+.btn-incredecre {
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+    background: #ddb892;
+    border: 1px solid #000;
+}
